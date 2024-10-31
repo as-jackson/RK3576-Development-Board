@@ -1,4 +1,25 @@
-Let's first introduce the detailed specifications of Rockchip RK3576  Datasheet
+## RK3576 Development Board Introduction
+
+
+### ArmSoM-Sige5 RK3576 Development Board
+
+ArmSoM-Sige5 adopts the second-generation 8nm high-performance AIOT platform Rockchip RK3576, with a 6 TOPS computing power NPU and support for up to 16GB of large memory. It supports 4K video encoding and decoding, offers rich interfaces including dual gigabit Ethernet ports, WiFi 6 & BT5, and various video outputs. Compatible with multiple operating systems, it is suitable for ARM-based PCs, edge computing devices, personal mobile internet devices, and other digital multimedia applications.
+
+![rk3576 sige5](./image/sige5.png)
+
+More details：https://docs.armsom.org/armsom-sige5
+
+### ArmSoM-CM5 RK3576 Compute Module
+
+The ArmSoM-CM5 is a Compute module powered by the Rockchip RK3576 second-generation 8nm high-performance AIOT platform. It integrates a quad-core Cortex-A72 @ 2.2GHz and a quad-core Cortex-A53 @ 1.8GHz, along with a dedicated NEON co-processor, a 6 TOPS NPU, and supports up to 16GB of large memory. It supports 4K video encoding and decoding, features a rich set of interfaces, and supports various operating systems.
+
+![rk3576 CM5](./image/cm5.png)
+
+ore details：https://docs.armsom.org/armsom-cm5
+
+### RK3576 Linux mainline support
+
+- Add rk3576 armsom-sige5 board: https://patchwork.kernel.org/project/dri-devel/patch/20240903152308.13565-10-detlev.casanova@collabora.com/ 
 
 ## RK3576 Brief datasheet
 
@@ -74,26 +95,3 @@ A low power, high performance AloT processor
 ### RK3576 Typical Application Diagram-AloT
 
 ![rk3576 typical](./image/rk3576-typical.png)
-
-## RK3576 Development Board Introduction
-
-
-### ArmSoM-Sige5 RK3576 Development Board
-
-ArmSoM-Sige5 adopts the second-generation 8nm high-performance AIOT platform Rockchip RK3576, with a 6 TOPS computing power NPU and support for up to 16GB of large memory. It supports 4K video encoding and decoding, offers rich interfaces including dual gigabit Ethernet ports, WiFi 6 & BT5, and various video outputs. Compatible with multiple operating systems, it is suitable for ARM-based PCs, edge computing devices, personal mobile internet devices, and other digital multimedia applications.
-
-![rk3576 sige5](./image/sige5.png)
-
-More details：https://docs.armsom.org/armsom-sige5
-
-### ArmSoM-CM5 RK3576 Compute Module
-
-The ArmSoM-CM5 is a Compute module powered by the Rockchip RK3576 second-generation 8nm high-performance AIOT platform. It integrates a quad-core Cortex-A72 @ 2.2GHz and a quad-core Cortex-A53 @ 1.8GHz, along with a dedicated NEON co-processor, a 6 TOPS NPU, and supports up to 16GB of large memory. It supports 4K video encoding and decoding, features a rich set of interfaces, and supports various operating systems.
-
-![rk3576 CM5](./image/cm5.png)
-
-ore details：https://docs.armsom.org/armsom-cm5
-
-### RK3576 Linux mainline support
-
-- Add rk3576 armsom-sige5 board: https://patchwork.kernel.org/project/dri-devel/patch/20240903152308.13565-10-detlev.casanova@collabora.com/ 
