@@ -5,15 +5,19 @@
 
 ArmSoM-Sige5 adopts the second-generation 8nm high-performance AIOT platform Rockchip RK3576, with a 6 TOPS computing power NPU and support for up to 16GB of large memory. It supports 4K video encoding and decoding, offers rich interfaces including dual gigabit Ethernet ports, WiFi 6 & BT5, and various video outputs. Compatible with multiple operating systems, it is suitable for ARM-based PCs, edge computing devices, personal mobile internet devices, and other digital multimedia applications.
 
-![rk3576 sige5](./RK3576_image/RK3576_sige5.png)
+![rk3576-sbc-sige5](./RK3576-image/RK3576-sbc-sige5.png)
+
+![rk3576-sbc-sige5-layout](./RK3576-image/RK3576-sbc-sige5-layout.jpg)
 
 More details：https://docs.armsom.org/armsom-sige5
 
 ### ArmSoM-CM5 RK3576 Compute Module
 
-The ArmSoM-CM5 is a Compute module powered by the Rockchip RK3576 second-generation 8nm high-performance AIOT platform. It integrates a quad-core Cortex-A72 @ 2.2GHz and a quad-core Cortex-A53 @ 1.8GHz, along with a dedicated NEON co-processor, a 6 TOPS NPU, and supports up to 16GB of large memory. It supports 4K video encoding and decoding, features a rich set of interfaces, and supports various operating systems.
+The ArmSoM-CM5 is a compute module powered by the Rockchip RK3576 second-generation 8nm high-performance AIOT platform. It integrates a quad-core Cortex-A72 @ 2.2GHz and a quad-core Cortex-A53 @ 1.8GHz, along with a dedicated NEON co-processor, a 6 TOPS NPU, and supports up to 16GB of large memory. It supports 4K video encoding and decoding, features a rich set of interfaces, and supports various operating systems.
 
-![rk3576 CM5](./RK3576_image/RK3576_cm5.png)
+![rk3576-comput-module-armsom-cm5](./RK3576-image/rk3576-comput-module-armsom-cm5.png)
+
+![rk3576-comput-module-armsom-cm5-io](./RK3576-image/rk3576-comput-module-armsom-cm5-io.png)
 
 More details：https://docs.armsom.org/armsom-cm5
 
@@ -90,8 +94,8 @@ A low power, high performance AloT processor
 
 ### RK3576 Block Diagram
 
-![rk3576 block diagram](./RK3576_image/rk3576.png)
+![rk3576 block diagram](./RK3576-image/rk3576-block-diagram.png)
 
 ### RK3576 Typical Application Diagram-AloT
 
-![rk3576 typical](./RK3576_image/rk3576-typical.png)
+![rk3576 typical](./RK3576-image/rk3576-typical.png)
